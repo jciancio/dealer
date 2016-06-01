@@ -11,11 +11,6 @@ describe Dealer::Deck do
     it "contains Card objects" do
       expect(subject.cards[0]).to be_a Dealer::Card
     end
-
-    it "the cards are shuffled" do
-      # expect(subject.cards[0].value).to_not eq(1)
-      # expect(subject.cards[0].suite).to_not eq(:clubs)
-    end
   end
 
   context '#draw' do
