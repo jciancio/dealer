@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
-  s.name        = 'dealer'
+  s.name        = 'redealer'
   s.version     = '0.0.1'
   s.date        = '2016-06-01'
   s.summary     = "Dealing Cards for different games!"
   s.description = "The gem allows you to set up a deck of cards and deal them."
   s.authors     = ["Joseph Ciancio"]
   s.email       = 'jciancio7@gmail.com'
-  s.files       = ["lib/dealer.rb"]
+  s.files       = ["lib/redealer.rb"]
   s.homepage    =
-    'http://rubygems.org/gems/dealer'
+    'http://rubygems.org/gems/redealer'
   s.license       = 'MIT'
 
   s.files         = `git ls-files`.split($/)
@@ -21,5 +21,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake", "~> 10.0"
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency "pry", "~> 0"
-  s.add_development_dependency "pry-byebug", "~> 0"
 end

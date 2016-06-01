@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Dealer::Card do
+describe Redealer::Card do
   subject { described_class.new(13, 'clubs') }
 
   context '#suite' do

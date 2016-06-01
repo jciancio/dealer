@@ -1,12 +1,11 @@
 PATH
   remote: .
   specs:
-    dealer (0.0.1)
+    redealer (0.0.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (9.0.5)
     coderay (1.1.1)
     diff-lcs (1.2.5)
     method_source (0.8.2)
@@ -14,9 +13,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry-byebug (3.4.0)
-      byebug (~> 9.0)
-      pry (~> 0.10)
     rake (10.5.0)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
@@ -38,10 +34,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.11)
-  dealer!
-  pry
-  pry-byebug
+  pry (~> 0)
   rake (~> 10.0)
+  redealer!
   rspec (~> 3.0)
 
 BUNDLED WITH

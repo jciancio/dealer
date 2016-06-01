@@ -1,4 +1,4 @@
-module Dealer
+module Redealer
   class Card
     attr_reader :value, :suite
     def initialize(value, suite)

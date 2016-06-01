@@ -1,4 +1,4 @@
-module Dealer
+module Redealer
   class Deck
     attr_reader :cards
 

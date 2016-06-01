@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Dealer::Deck do
+describe Redealer::Deck do
   subject{ described_class.new }
 
   context '#cards' do
@@ -9,13 +9,13 @@ describe Dealer::Deck do
     end
 
     it "contains Card objects" do
-      expect(subject.cards[0]).to be_a Dealer::Card
+      expect(subject.cards[0]).to be_a Redealer::Card
     end
   end
 
   context '#draw' do
     it 'displays a card' do
-      expect(subject.draw).to be_a Dealer::Card
+      expect(subject.draw).to be_a Redealer::Card
     end
 
     it 'removes a card from the deck' do

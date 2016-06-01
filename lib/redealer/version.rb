@@ -1,3 +1,3 @@
-module Dealer
+module Redealer
   VERSION = "1.0.0"
 end
