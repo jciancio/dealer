@@ -11,8 +11,14 @@ Gem::Specification.new do |s|
     'http://rubygems.org/gems/dealer'
   s.license       = 'MIT'
 
+  s.files         = `git ls-files`.split($/)
+  s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.test_files    = s.files.grep(%r{^(spec)/})
+  s.require_paths = ["lib"]
+
   s.add_development_dependency "bundler", "~> 1.11"
 
+  s.add_development_dependency "rake", "~> 10.0"
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency "pry"
   s.add_development_dependency "pry-byebug"
