@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rake", "~> 10.0"
   s.add_development_dependency "rspec", "~> 3.0"
-  s.add_development_dependency "pry"
-  s.add_development_dependency "pry-byebug"
+  s.add_development_dependency "pry", "~> 0"
+  s.add_development_dependency "pry-byebug", "~> 0"
 end
